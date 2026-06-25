@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0220)file:///Users/aryan/Library/Application%20Support/Claude/local-agent-mode-sessions/9151f03f-74f8-4082-a33b-06da2c005fe6/0d6e0df9-1aca-41be-97dd-b7d5be174545/local_be038410-ec01-4ff1-932d-9c56e09f4e0d/outputs/privacy.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Inboxed AI</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 800px; margin: 60px auto; padding: 0 24px; color: #222; line-height: 1.7; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 36px; }
+  p { margin: 12px 0; }
+  ul { margin: 12px 0; padding-left: 24px; }
+  li { margin: 6px 0; }
+  .meta { color: #888; font-size: 14px; margin-bottom: 40px; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Inboxed AI &nbsp;·&nbsp; Last updated: June 25, 2026</p>
+
+<p>Inboxed AI ("we", "our", "us", or "the Service") is an AI-powered email and messaging auto-reply tool built for real estate professionals. This Privacy Policy explains what data we access, how we use it, and what protections are in place. By using Inboxed AI, you agree to the practices described in this policy.</p>
+
+<h2>1. What Inboxed AI Does</h2>
+<p>Inboxed AI runs locally on your computer and connects to your Gmail account and Google Sheets to monitor incoming emails, classify them as buyer or seller leads, and automatically send AI-generated replies on your behalf. The Service does not operate on a remote server — all processing happens on your machine.</p>
+
+<h2>2. Data We Access</h2>
+<p>To operate the Service, we request access to the following data:</p>
+<ul>
+  <li><strong>Gmail messages (gmail.modify scope):</strong> We read incoming unread emails, generate a reply, send that reply from your account, and mark the original email as read. We access only emails with the label you designate (e.g., "Inboxed AI"). We do not read, store, or transmit your entire inbox.</li>
+  <li><strong>Google Sheets (spreadsheets.readonly scope):</strong> We read your property listings spreadsheet to include accurate listing details in AI-generated replies. We do not write to, modify, or delete any data in your spreadsheet.</li>
+</ul>
+
+<h2>3. How We Use Your Data</h2>
+<p>Your data is used solely to operate the Service. Specifically:</p>
+<ul>
+  <li>The content of incoming emails is sent to OpenAI's API to generate a contextually relevant reply. OpenAI processes this data under their <a href="https://openai.com/policies/privacy-policy">Privacy Policy</a>.</li>
+  <li>Your property listings are included in the prompt sent to OpenAI to make replies accurate and listing-specific.</li>
+  <li>We do not use your data for advertising, analytics, training our own AI models, or any purpose beyond generating and sending replies.</li>
+  <li>We do not sell, rent, or share your data with any third party other than OpenAI, Google, and Twilio as described in this policy.</li>
+</ul>
+
+<h2>4. Data Storage and Retention</h2>
+<p>Inboxed AI does not store your email content. Data is processed in real time — once a reply is generated and sent, the email content is discarded from memory. Your Google OAuth credentials (login token) are stored locally on your computer in a file called <code>token.pickle</code> and are never transmitted to us or any server we control.</p>
+<p>We do not maintain databases, logs, or records of your emails, replies, or personal information on any remote server.</p>
+
+<h2>5. Local Operation and Security</h2>
+<p>The Service runs entirely on your local machine. Your Gmail OAuth token is stored locally and protected by your computer's file system permissions. We strongly recommend:</p>
+<ul>
+  <li>Keeping your computer secure with a strong password and up-to-date software.</li>
+  <li>Not sharing your <code>token.pickle</code>, <code>credentials.json</code>, or API keys with anyone.</li>
+  <li>Revoking access immediately if you believe your credentials have been compromised.</li>
+</ul>
+
+<h2>6. Third-Party Services</h2>
+<p>Inboxed AI integrates with the following third-party services, each governed by their own privacy policies:</p>
+<ul>
+  <li><strong>Google LLC</strong> — Gmail API and Google Sheets API. <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Google's use of data accessed through their APIs is governed by the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+  <li><strong>OpenAI</strong> — AI reply generation via GPT-4o-mini. <a href="https://openai.com/policies/privacy-policy">OpenAI Privacy Policy</a>. Email content is sent to OpenAI solely to generate replies and is subject to OpenAI's data handling policies.</li>
+  <li><strong>Twilio Inc.</strong> (optional) — SMS and WhatsApp messaging. <a href="https://www.twilio.com/en-us/legal/privacy">Twilio Privacy Policy</a>. Used only if you configure SMS or WhatsApp features.</li>
+</ul>
+<p>Inboxed AI's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>7. No Sale of Personal Data</h2>
+<p>We do not sell, trade, rent, or otherwise transfer your personal data or email content to any third party for commercial purposes. Period.</p>
+
+<h2>8. Children's Privacy</h2>
+<p>Inboxed AI is intended for use by adults (18+) in a professional context. We do not knowingly collect or process data from individuals under the age of 18.</p>
+
+<h2>9. Your Rights and Controls</h2>
+<p>You have full control over your data:</p>
+<ul>
+  <li><strong>Revoke access at any time:</strong> Visit <a href="https://myaccount.google.com/permissions">Google Account Permissions</a> and remove Inboxed AI. This immediately stops the Service from accessing your Gmail or Google Sheets.</li>
+  <li><strong>Delete local credentials:</strong> Delete the <code>token.pickle</code> file from your Inboxed AI folder to remove stored OAuth credentials from your machine.</li>
+  <li><strong>Stop the Service:</strong> Close the application at any time to stop all processing.</li>
+</ul>
+
+<h2>10. Disclaimer of Liability for AI Outputs</h2>
+<p>AI-generated replies are produced automatically and may not be accurate, complete, or appropriate for all situations. We are not responsible for the content of AI-generated communications sent on your behalf. You are solely responsible for reviewing and being accountable for any communications sent from your account via the Service.</p>
+
+<h2>11. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. We will indicate the date of the last update at the top of this page. Continued use of the Service after changes are posted constitutes your acceptance of the updated policy.</p>
+
+<h2>12. Contact Us</h2>
+<p>If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us at:</p>
+<p><strong>Inboxed AI</strong><br>
+Email: <a href="mailto:inboxedai1@gmail.com">inboxedai1@gmail.com</a></p>
+
+
+
+</body></html>
